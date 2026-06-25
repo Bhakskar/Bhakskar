@@ -30,3 +30,4 @@ I am a passionate Computer Science Engineering student focused on building intel
 
 ### 📫 Connect with me
 - 📧 Email: bhaskarreddy.v88@gmail.com
+- linkedin :https://www.linkedin.com/in/bhaskarareddyvanukuri
