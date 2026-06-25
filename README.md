@@ -8,7 +8,7 @@ I am a passionate Computer Science Engineering student focused on building intel
 
 - **Languages:** Python, Java, C++, SQL
 - **Web Development:** HTML5, CSS3, JavaScript, React
-- **Developer Tools:** VS Code, Git, GitHub
+- **Developer Tools:** VS Code, Antigravity, Git, GitHub
 - **Specializations:** Software Engineering, Core Computing Concepts, Data Structures , chatgpt prompting, soft skills, presentation skills
 
 ---
