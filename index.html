@@ -231,8 +231,8 @@
         <!-- interactive 3D node network, mouse-reactive -->
         <canvas id="hero-canvas" aria-hidden="true"></canvas>
 
-        <div class="relative max-w-5xl mx-auto px-6 pt-20 pb-20 grid md:grid-cols-[1.5fr_1fr] gap-12 items-end">
-            <div>
+        <div class="relative max-w-5xl mx-auto px-6 pt-20 pb-20">
+            <div class="max-w-2xl">
                 <p class="eyebrow mb-5">PORTFOLIO — SYSTEMS &amp; APPLIED ML // REV. 2026</p>
                 <h1 class="font-display text-5xl md:text-[3.6rem] font-medium tracking-tight leading-[1.05]" style="color: #F4EFE6;">
                     Vanukuri<br>Bhaskara Reddy
@@ -242,18 +242,23 @@
                     B.Tech Computer Science &amp; Engineering Student
                 </p>
                 <p class="mt-4 max-w-md leading-relaxed text-[14.5px]" style="color: #8C95A3;">
-                    I build dependable hardware–software systems and applied machine-learning
-                    tools — engineered to survive contact with messy data, noisy sensors, and
-                    real-world constraints, not just a demo.
+                    I'm an AI-generative-focused builder and full-stack development (FSD) enthusiast,
+                    blending applied machine learning with hands-on GPT prompting to design systems
+                    that think and respond intelligently. From crafting precise prompts that shape
+                    AI behavior to engineering complete end-to-end applications, I build tools that
+                    are reliable under messy data, real users, and real-world constraints — not just
+                    a demo.
                 </p>
 
-                <div class="mt-8 flex flex-wrap gap-3 text-sm">
-                    <a href="mailto:professional.email@email.com" class="cta-primary reveal-cta font-semibold px-5 py-2.5 rounded-sm">
+                <div class="mt-8 flex flex-wrap items-center gap-3 text-sm">
+                    <a href="mailto:bhaskarreddy.v88@gmail.com" class="cta-primary reveal-cta font-semibold px-5 py-2.5 rounded-sm">
                         Email Me
                     </a>
-                    <a href="#" target="_blank" rel="noopener" class="cta-secondary reveal-cta reveal-stagger-1 font-semibold px-5 py-2.5 rounded-sm">
-                        View Résumé (PDF)
-                    </a>
+                    <button type="button" id="copy-email-btn" data-email="bhaskarreddy.v88@gmail.com"
+                        class="reveal-cta reveal-stagger-1 font-medium px-3 py-2.5 border rounded-sm"
+                        style="border-color: #3A4A63; color: #B8BFC9;">
+                        <span id="copy-email-label">Copy Email</span>
+                    </button>
                     <a href="https://github.com/bhakskar" target="_blank" rel="noopener" class="reveal-cta reveal-stagger-2 font-medium px-3 py-2.5" style="color: #8C95A3;">
                         GitHub ↗
                     </a>
@@ -262,42 +267,37 @@
                     </a>
                 </div>
             </div>
-
-            <!-- spec datasheet card -->
-            <div class="relative">
-                <canvas id="chip-canvas" class="absolute -top-16 -right-6 w-40 h-40 pointer-events-none hidden md:block" aria-hidden="true"></canvas>
-                <div class="spec-card rounded-sm p-5 relative">
-                    <p class="spec-label mb-4">FIELD NOTES — VERIFIED OUTCOMES</p>
-                    <dl class="grid grid-cols-2 gap-x-4 gap-y-4">
-                        <div>
-                            <dt class="spec-label">PREDICTION ACCURACY</dt>
-                            <dd class="spec-value text-2xl mt-1"><span data-count-to="94" data-suffix="%">0%</span></dd>
-                        </div>
-                        <div>
-                            <dt class="spec-label">ALERT DISPATCH</dt>
-                            <dd class="spec-value text-2xl mt-1">&lt;<span data-count-to="5" data-suffix="s">0s</span></dd>
-                        </div>
-                        <div>
-                            <dt class="spec-label">TEAM LED</dt>
-                            <dd class="spec-value text-2xl mt-1"><span data-count-to="3" data-suffix="">0</span></dd>
-                        </div>
-                        <div>
-                            <dt class="spec-label">EVENT REACH</dt>
-                            <dd class="spec-value text-2xl mt-1"><span data-count-to="150" data-suffix="+">0+</span></dd>
-                        </div>
-                    </dl>
-                </div>
-            </div>
         </div>
     </header>
 
     <main id="main" class="relative max-w-5xl mx-auto px-6">
         <div class="hidden md:block trace" style="left: 1.5rem;"></div>
 
+        <!-- EDUCATION -->
+        <section class="relative md:pl-14 py-14 border-b" style="border-color: var(--line);">
+            <span class="node node-filled hidden md:block" style="left: 1.5rem; transform: translateX(-50%) rotate(45deg);"></span>
+            <p class="eyebrow mb-2">01 — EDUCATION</p>
+            <h2 class="font-display text-2xl font-medium" style="color: var(--navy);">Academic Background</h2>
+
+            <div class="mt-7 panel p-6 rounded-sm reveal">
+                <div class="flex flex-wrap justify-between items-start gap-3">
+                    <div>
+                        <h3 class="font-display text-lg font-medium" style="color: var(--ink);">
+                            B.Tech in Computer Science &amp; Engineering (General)
+                        </h3>
+                        <p class="mt-1 text-sm" style="color: var(--mist);">
+                            KITS Akshar Institute of Technology and Sciences
+                        </p>
+                    </div>
+                    <span class="pill px-2.5 py-1 rounded-sm whitespace-nowrap">CGPA: 7.0</span>
+                </div>
+            </div>
+        </section>
+
         <!-- TECHNICAL SKILLS -->
         <section class="relative md:pl-14 py-14 border-b" style="border-color: var(--line);">
             <span class="node node-filled hidden md:block" style="left: 1.5rem; transform: translateX(-50%) rotate(45deg);"></span>
-            <p class="eyebrow mb-2">01 — CAPABILITIES</p>
+            <p class="eyebrow mb-2">02 — CAPABILITIES</p>
             <h2 class="font-display text-2xl font-medium" style="color: var(--navy);">Technical Skills</h2>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-px mt-7 border" style="background: var(--line); border-color: var(--line);">
@@ -310,8 +310,8 @@
                     <p class="mt-2 text-sm" style="color: var(--mist);">React, Node.js, Express, Streamlit, Lovable.dev</p>
                 </div>
                 <div class="panel p-5 reveal reveal-stagger-2">
-                    <p class="font-mono text-[0.66rem] tracking-wider" style="color: var(--copper);">HARDWARE &amp; IOT INTEGRATION</p>
-                    <p class="mt-2 text-sm" style="color: var(--mist);">ESP32, Arduino, Microcontrollers, GPS/GSM Modules, MPU6050</p>
+                    <p class="font-mono text-[0.66rem] tracking-wider" style="color: var(--copper);">COMMUNICATION &amp; SOFT SKILLS</p>
+                    <p class="mt-2 text-sm" style="color: var(--mist);">Team Leadership, Cross-functional Collaboration, Problem Solving, AI/LLM Prompt Engineering</p>
                 </div>
                 <div class="panel p-5 reveal reveal-stagger-3">
                     <p class="font-mono text-[0.66rem] tracking-wider" style="color: var(--copper);">DEVELOPER ECOSYSTEM</p>
@@ -323,7 +323,7 @@
         <!-- CASE STUDIES -->
         <section class="relative md:pl-14 py-14 border-b" style="border-color: var(--line);">
             <span class="node node-filled hidden md:block" style="left: 1.5rem; transform: translateX(-50%) rotate(45deg);"></span>
-            <p class="eyebrow mb-2">02 — SELECTED WORK</p>
+            <p class="eyebrow mb-2">03 — SELECTED WORK</p>
             <h2 class="font-display text-2xl font-medium" style="color: var(--navy);">Engineering Case Studies</h2>
 
             <div class="space-y-6 mt-7">
@@ -331,7 +331,7 @@
                 <!-- Case Study 1 -->
                 <article class="panel p-7 rounded-sm tilt-card reveal">
                         </h3>
-                        <span class="pill px-2.5 py-1 rounded-sm whitespace-nowrap">PYTHON · SCIKIT-LEARN · STREAMLIT</span>
+                        <span class="pill px-2.5 py-1 rounded-sm whitespace-nowrap">PYTHON · GPT PROMPTING · MULTILINGUAL COMMUNICATION · AGENTIC WORK</span>
                     </div>
 
                     <dl class="mt-5 space-y-4 text-[14px] leading-relaxed" style="color: var(--mist);">
@@ -405,7 +405,7 @@
         <!-- LEADERSHIP -->
         <section class="relative md:pl-14 py-14">
             <span class="node node-filled hidden md:block" style="left: 1.5rem; transform: translateX(-50%) rotate(45deg);"></span>
-            <p class="eyebrow mb-2">03 — BEYOND THE CODE</p>
+            <p class="eyebrow mb-2">04 — BEYOND THE CODE</p>
             <h2 class="font-display text-2xl font-medium" style="color: var(--navy);">Leadership &amp; Execution</h2>
 
             <div class="mt-7 space-y-px border" style="background: var(--line); border-color: var(--line);">
@@ -426,13 +426,26 @@
                         participants.
                     </p>
                 </div>
+                <div class="panel p-6 reveal reveal-stagger-2">
+                    <h4 class="font-semibold text-base" style="color: var(--ink);">NCC Cadet — National Cadet Corps</h4>
+                    <p class="mt-2 text-[14px] leading-relaxed" style="color: var(--mist);">
+                        Completed the NCC 'C' Certificate, earning a Silver Medal in firing. Built discipline,
+                        leadership under pressure, and precision focus through structured military-style
+                        training and service.
+                    </p>
+                </div>
             </div>
         </section>
     </main>
 
     <!-- FOOTER -->
     <footer class="max-w-5xl mx-auto px-6 py-12 text-center border-t" style="border-color: var(--line);">
-        <p class="font-mono text-[0.65rem] tracking-wider" style="color: var(--mist);">
+        <p class="font-display text-lg" style="color: var(--navy);">Let's talk.</p>
+        <p class="mt-2 text-sm" style="color: var(--mist);">
+            <a href="mailto:bhaskarreddy.v88@gmail.com" class="text-link">bhaskarreddy.v88@gmail.com</a>
+            &nbsp;·&nbsp; Guntur, Andhra Pradesh, India
+        </p>
+        <p class="font-mono text-[0.65rem] tracking-wider mt-8" style="color: var(--mist);">
             © 2026 VANUKURI BHASKARA REDDY — BUILT WITH SEMANTIC HTML &amp; TAILWIND CSS
         </p>
     </footer>
@@ -507,68 +520,6 @@
         size();
         window.addEventListener('resize', size);
 
-        // --- small rendered "chip" centerpiece, business-grade product feel ---
-        const chipCanvas = document.getElementById('chip-canvas');
-        let chipScene, chipCamera, chipRenderer, chipGroup;
-        if (chipCanvas) {
-            chipRenderer = new THREE.WebGLRenderer({ canvas: chipCanvas, alpha: true, antialias: true });
-            chipRenderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
-            chipScene = new THREE.Scene();
-            chipCamera = new THREE.PerspectiveCamera(38, 1, 0.1, 50);
-            chipCamera.position.set(2.6, 2.1, 2.6);
-            chipCamera.lookAt(0, 0, 0);
-
-            const key = new THREE.DirectionalLight(0xffffff, 1.4);
-            key.position.set(3, 4, 2);
-            chipScene.add(key);
-            chipScene.add(new THREE.AmbientLight(0x8899bb, 0.6));
-            const rim = new THREE.PointLight(0xC77B43, 1.2, 10);
-            rim.position.set(-2, -1, 2);
-            chipScene.add(rim);
-
-            chipGroup = new THREE.Group();
-
-            const bodyMat = new THREE.MeshStandardMaterial({ color: 0x18222E, metalness: 0.55, roughness: 0.32 });
-            const body = new THREE.Mesh(new THREE.BoxGeometry(1.6, 0.22, 1.6), bodyMat);
-            chipGroup.add(body);
-
-            const coreMat = new THREE.MeshStandardMaterial({ color: 0xC77B43, metalness: 0.4, roughness: 0.25, emissive: 0x4A2A12, emissiveIntensity: 0.5 });
-            const core = new THREE.Mesh(new THREE.BoxGeometry(0.7, 0.1, 0.7), coreMat);
-            core.position.y = 0.16;
-            chipGroup.add(core);
-
-            const pinMat = new THREE.MeshStandardMaterial({ color: 0xB8BFC9, metalness: 0.8, roughness: 0.3 });
-            const pinGeo = new THREE.CylinderGeometry(0.035, 0.035, 0.5, 8);
-            const pinPositions = [];
-            for (let i = -1; i <= 1; i += 0.66) {
-                pinPositions.push([i, 0, 0.95], [i, 0, -0.95], [0.95, 0, i], [-0.95, 0, i]);
-            }
-            pinPositions.forEach(([x, y, z]) => {
-                const pin = new THREE.Mesh(pinGeo, pinMat);
-                pin.rotation.x = Math.PI / 2;
-                pin.position.set(x, y, z);
-                chipGroup.add(pin);
-            });
-
-            chipScene.add(chipGroup);
-
-            function sizeChip() {
-                const s = chipCanvas.clientWidth || 160;
-                chipRenderer.setSize(s, s, false);
-                chipCamera.aspect = 1;
-                chipCamera.updateProjectionMatrix();
-            }
-            sizeChip();
-            window.addEventListener('resize', sizeChip);
-
-            function animateChip() {
-                chipGroup.rotation.y += prefersReducedMotion ? 0 : 0.012;
-                chipRenderer.render(chipScene, chipCamera);
-                requestAnimationFrame(animateChip);
-            }
-            animateChip();
-        }
-
         function animate() {
             group.rotation.y += prefersReducedMotion ? 0 : 0.0015;
             group.rotation.x += (targetY - group.rotation.x) * 0.04;
@@ -621,36 +572,38 @@
         } else {
             document.querySelectorAll('.reveal, .reveal-cta').forEach((el) => el.classList.add('reveal-in'));
         }
-        // animated count-up for the field-notes spec values
-        const counters = document.querySelectorAll('[data-count-to]');
-        const animateCount = (el) => {
-            const target = parseFloat(el.dataset.countTo);
-            const suffix = el.dataset.suffix || '';
-            const dur = 900;
-            const start = performance.now();
-            const tick = (now) => {
-                const p = Math.min((now - start) / dur, 1);
-                const eased = 1 - Math.pow(1 - p, 3);
-                el.textContent = Math.round(target * eased) + suffix;
-                if (p < 1) requestAnimationFrame(tick);
-            };
-            if (reduceMotion) {
-                el.textContent = target + suffix;
-            } else {
-                requestAnimationFrame(tick);
-            }
-        };
-        if (counters.length) {
-            const counted = new WeakSet();
-            const countObserver = new IntersectionObserver((entries) => {
-                entries.forEach((entry) => {
-                    if (entry.isIntersecting && !counted.has(entry.target)) {
-                        counted.add(entry.target);
-                        animateCount(entry.target);
+
+        // copy-email fallback, for visitors with no default mail app configured
+        const copyBtn = document.getElementById('copy-email-btn');
+        if (copyBtn) {
+            copyBtn.addEventListener('click', async () => {
+                const email = copyBtn.dataset.email;
+                const label = document.getElementById('copy-email-label');
+                try {
+                    if (navigator.clipboard && window.isSecureContext) {
+                        await navigator.clipboard.writeText(email);
+                    } else {
+                        const ta = document.createElement('textarea');
+                        ta.value = email;
+                        ta.style.position = 'fixed';
+                        ta.style.opacity = '0';
+                        document.body.appendChild(ta);
+                        ta.select();
+                        document.execCommand('copy');
+                        document.body.removeChild(ta);
                     }
-                });
-            }, { threshold: 0.4 });
-            counters.forEach((el) => countObserver.observe(el));
+                    label.textContent = 'Copied ✓';
+                    copyBtn.style.borderColor = '#A87C4F';
+                    copyBtn.style.color = '#A87C4F';
+                } catch (err) {
+                    label.textContent = email;
+                }
+                setTimeout(() => {
+                    label.textContent = 'Copy Email';
+                    copyBtn.style.borderColor = '#3A4A63';
+                    copyBtn.style.color = '#B8BFC9';
+                }, 2200);
+            });
         }
     </script>
 
