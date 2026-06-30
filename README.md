@@ -20,14 +20,6 @@ I am a passionate Computer Science Engineering student focused on building intel
 
 ---
 
-### 📊 GitHub Stats
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Bhakskar&show_icons=true&theme=dark" alt="Bhakskar's GitHub Stats" />
-</p>
-
----
-
 ### 📫 Connect with me
 - 📧 Email: bhaskarreddy.v88@gmail.com
 - linkedin :https://www.linkedin.com/in/bhaskarareddyvanukuri
